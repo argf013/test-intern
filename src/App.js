@@ -62,7 +62,7 @@ const App = () => {
 
     let total = subtotal;
     if (discountApplied) {
-      total *= 0.9; // Apply 10% discount
+      total *= 0.9;
     }
 
     return {
@@ -110,12 +110,10 @@ const App = () => {
   const { subtotal, total } = calculateTotal();
 
   const saveBill = () => {
-    // Logic for saving the bill
     alert("Bill saved successfully!");
   };
 
   const printBill = () => {
-    // Logic for printing the bill
     window.print();
   };
 
