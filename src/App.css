@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+.charge {
+  background-color: rgb(227, 230, 243);
+}
+
+.charge button {
+  background-color: #485CA6;
+}
+
+.Clear-sale {
+  flex-basis: 100%;
+  border-top: solid rgb(227, 230, 243) 0.25em;
+  border-bottom: solid rgb(227, 230, 243) 0.125em;
+}
+
+body {
+  font-family: Lato;
+  font-weight: bold;
+  margin-right: 2em;
+  margin-left: 2em;
+  background-color: rgb(227, 230, 243);
+}
+
+.yeah {
+  background-color: rgb(227, 230, 243) !important;
+}
+
+.w3-btn:hover {
+  box-shadow: none !important;
+}
+
+#clear-sale {
+  flex-basis: 100%;
+  width: 100%
+}
+
+#charge {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.menu-list {
+  flex: 1;
+}
+
+.menu-container {
+  margin-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-card {
+  cursor: pointer;
+  background-color: white;
+  width: 10em;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.menu-card img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: auto;
+  margin: 0;
+}
+
+.menu-name {
+  font-size: 12px;
+  text-align: center;
+
+}
+
+p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 20ch;
+}
+
+.card-form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordered-menu-card {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.form-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-form {
+  margin-top: 1em;
+  flex: 1;
+  background-color: rgb(227, 230, 243);
+}
+
+.dine {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.card-form-header {
+  padding-top: 1em;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(227, 230, 243);
+}
+
+.card-form-content {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.form-section {
+  margin-bottom: 10px;
+}
+
+.form-section label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-section input {
+  width: 100%;
+  padding: 5px;
+}
+
+.form-section .button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container {
+  background-color: rgb(227, 230, 243);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: white;
+}
+
+#charge {
+  flex-basis: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+.subtotal,
+.total {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.dine-2 {
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: solid rgb(227, 230, 243) 0.25em;
+}
+
+#save-bill,
+#print-bill {
+  font-size: 20px;
+}
